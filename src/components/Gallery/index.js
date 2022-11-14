@@ -12,7 +12,7 @@ function Gallery(props) {
   };
   return (
     <section>
-      <h1>{capitalizeFirstLetter}</h1>
+      <h1 id="Gallery">{capitalizeFirstLetter}</h1>
       <p></p>
       <div className="flex-row">
       <a href="https://maxbransontaylor.github.io/genre-buddy/">GenreBuddy</a>

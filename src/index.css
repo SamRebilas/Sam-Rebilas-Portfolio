@@ -192,6 +192,7 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+ 
 }
 
 .space-between {
@@ -221,6 +222,7 @@ textarea {
   margin-top: var(--spacing-two);
   margin-bottom: var(--spacing-two);
   border-radius: 70%;
+  filter: drop-shadow(0 0 0.75rem rgb(20, 40, 220));
   
 }
 
@@ -256,9 +258,12 @@ textarea {
 
 .img-thumbnail {
   width: auto;
-  height: 300px;
+  height: 600px;
   margin-bottom: 50px;
+  margin-right: 10px;
   cursor: pointer;
+  /* box-shadow: 4px 4px transparent; */
+  filter: drop-shadow(0 0 0.75rem rgb(20, 40, 220));
 }
 
 .modalBackdrop {
@@ -337,4 +342,9 @@ body::before {
 	50% {
 		filter:hue-rotate(-45deg);
 	}
+}
+@media only screen and (min-width: 1024px) {
+  .container header .header-nav-area #nav_container  {
+    display:flex;
+  }
 }
