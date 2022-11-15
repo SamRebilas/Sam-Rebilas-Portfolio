@@ -105,7 +105,7 @@ a:hover {
 }
 a:visited { 
   text-decoration: none; 
-  color: orange; 
+  color: rgb(255, 255, 255); 
  }
 
 header {
@@ -347,4 +347,12 @@ body::before {
   .container header .header-nav-area #nav_container  {
     display:flex;
   }
+}
+
+header{
+  background-color:#14C2CC;
+  background-image: 
+  radial-gradient(circle farthest-side at top, transparent, #0D64FF), radial-gradient(ellipse farthest-corner at 0% 100%, transparent, #FF00A0);
+  animation:bg-change 10s infinite;
+  border-bottom: solid black;
 }

@@ -13,7 +13,7 @@ function Nav() {
         console.log("hello")
       }
   return (
-    <header>
+    <header className='heder1'>
          <h1>
     <a href="/">
       <span role="img" aria-label="Desktop PC">🖥️</span> Sam Rebilas
