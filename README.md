@@ -1,6 +1,8 @@
 # React-Portfolio
 
-## Single page react portfolio deployed to Heroku.
+## Single page react portfolio deployed to Heroku. 
+
+## Feel free to reach out and contact me at any time!
 
 ## Link to app - https://portfolio-heroku-sam-rebilas.herokuapp.com/
 
