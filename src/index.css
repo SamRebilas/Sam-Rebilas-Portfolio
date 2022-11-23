@@ -63,6 +63,7 @@ h6 {
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
+  font-weight: bold;
 }
 
 h1 {
@@ -100,9 +101,6 @@ a {
   font-weight: bold;
 }
 
-a:hover {
-  text-decoration: underline;
-}
 a:visited { 
   text-decoration: none; 
   color: rgb(255, 255, 255); 
@@ -169,6 +167,8 @@ li {
 
 nav a:hover {
   text-decoration: none;
+  color: purple;
+  
 }
 
 nav  li {
@@ -254,6 +254,12 @@ textarea {
 .card {
   width: 25%;
   text-align: center;
+}
+.myWork:hover{
+  opacity: 0.7;
+}
+.contactMe:hover{
+color: purple;
 }
 
 .img-thumbnail {
@@ -350,9 +356,13 @@ body::before {
 }
 
 header{
-  background-color:#14C2CC;
-  background-image: 
-  radial-gradient(circle farthest-side at top, transparent, #0D64FF), radial-gradient(ellipse farthest-corner at 0% 100%, transparent, #FF00A0);
-  animation:bg-change 10s infinite;
-  border-bottom: solid black;
+  background-color:#757474;
+  /* background-image:  */
+  /* radial-gradient(circle farthest-side at top, transparent, #0D64FF), radial-gradient(ellipse farthest-corner at 0% 100%, transparent, #FF00A0); */
+  /* animation:bg-change 10s infinite; */
+   border: solid rgb(77, 77, 77); 
+   border-radius: 7px;
+}
+.title{
+  color: black;
 }

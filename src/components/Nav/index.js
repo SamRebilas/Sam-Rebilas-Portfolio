@@ -13,11 +13,9 @@ function Nav() {
         console.log("hello")
       }
   return (
-    <header className='heder1'>
+    <header className='header1'>
          <h1>
-    <a href="/">
-      <span role="img" aria-label="Desktop PC">🖥️</span> Sam Rebilas
-    </a>
+      <span role="img" aria-label="Desktop PC">🖥️</span> Sam Rebilas Portfolio
   </h1>
   <nav>
     <ul className="flex-row">
