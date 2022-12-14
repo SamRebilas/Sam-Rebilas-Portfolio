@@ -8,7 +8,7 @@ function contact() {
       <br/>
       <a className="contactMe" href="https://www.linkedin.com/in/sam-rebilas-a570711a1/">Linkdin</a>
       <br/>
-      <a className="contactMe" href="">Resume</a>
+      <a className="contactMe" href="https://docs.google.com/document/d/1mSQt984BQ6cspoH03gYfrzJknTnRHTWo/edit">Resume</a>
    
 
     </section>
